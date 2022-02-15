@@ -10,7 +10,7 @@ function compute()
     if (principal <= 0){
         //show alert and set focus when not a positive number
         alert("Enter a positive number");
-        principal.focus();
+        document.getElementById("principal").focus();
     }
     else{
         //enter in result if principal is a positive number
